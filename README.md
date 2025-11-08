@@ -33,7 +33,7 @@ CMD ["python", "main.py"]
 Build the base image:
 
 ```bash
-docker build -t oceantaotie/py-base:3.11 -f Dockerfile.base .
+docker build -t oceantaotie/py-base:3.11 .
 ```
 
 Push to Docker Hub:
